@@ -4,6 +4,7 @@ import datetime
 
 # Connect to ArcGIS Online
 gis = GIS("home")
+item = gis.content.get( insert layer url here)
 
 # Function to fetch data from the ArcGIS Online feature layer
 def fetch_data_from_layer(item):
